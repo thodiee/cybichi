@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="100%" height="100%" fill="none">
+    <!-- Shield Contour -->
+    <path d="M 48 32
+             C 82 44, 104 44, 110 44
+             C 116 44, 138 44, 172 32
+             C 188 32, 196 42, 194 58
+             L 187 122
+             C 179 170, 142 200, 110 216
+             C 78 200, 41 170, 33 122
+             L 26 58
+             C 24 42, 32 32, 48 32 Z"
+          fill="none" 
+          stroke="#1B60B4" 
+          stroke-width="14" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- ECG Pulse into M + B -->
+    <path d="M 6 106
+             L 48 106
+             L 54 116
+             L 72 54
+             L 91 158
+             L 110 74
+             L 110 146"
+          fill="none"
+          stroke="#1B60B4"
+          stroke-width="13"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    
+    <!-- B Top Loop -->
+    <path d="M 110 74
+             L 132 74
+             C 150 74, 160 82, 160 93
+             C 160 104, 150 110, 132 110
+             L 110 110"
+          fill="none"
+          stroke="#1B60B4"
+          stroke-width="13"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- B Bottom Loop -->
+    <path d="M 110 110
+             L 134 110
+             C 154 110, 164 118, 164 128
+             C 164 146, 152 146, 134 146
+             L 110 146"
+          fill="none"
+          stroke="#1B60B4"
+          stroke-width="13"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+</svg>

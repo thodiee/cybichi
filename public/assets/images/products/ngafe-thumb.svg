@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ngafe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#27272A"/>
+    </linearGradient>
+    <linearGradient id="amber-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-ngafe)"/>
+  <circle cx="520" cy="90" r="130" fill="#F59E0B" opacity="0.08" filter="blur(40px)"/>
+  
+  <rect x="40" y="35" width="520" height="330" rx="12" fill="#18181B" stroke="#3F3F46" stroke-width="1.5"/>
+  <rect x="40" y="35" width="520" height="38" rx="12" fill="#27272A"/>
+  <rect x="40" y="60" width="520" height="13" fill="#27272A"/>
+  <circle cx="65" cy="54" r="5" fill="#EF4444"/>
+  <circle cx="82" cy="54" r="5" fill="#F59E0B"/>
+  <circle cx="99" cy="54" r="5" fill="#10B981"/>
+  <text x="130" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#A1A1AA">pos.ngafe-app.com — Terminal Kasir #01</text>
+  
+  <!-- Left POS Menu Grid -->
+  <g transform="translate(60, 95)">
+    <!-- Category Tabs -->
+    <rect x="0" y="0" width="65" height="24" rx="6" fill="#F59E0B"/>
+    <text x="14" y="16" font-family="sans-serif" font-weight="700" font-size="10" fill="#000">Kopi</text>
+    <rect x="75" y="0" width="75" height="24" rx="6" fill="#27272A" stroke="#3F3F46"/>
+    <text x="88" y="16" font-family="sans-serif" font-weight="600" font-size="10" fill="#D4D4D8">Non-Kopi</text>
+    <rect x="160" y="0" width="70" height="24" rx="6" fill="#27272A" stroke="#3F3F46"/>
+    <text x="175" y="16" font-family="sans-serif" font-weight="600" font-size="10" fill="#D4D4D8">Pastry</text>
+    
+    <!-- Item 1 -->
+    <rect x="0" y="38" width="95" height="95" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <circle cx="47" cy="68" r="18" fill="#F59E0B" opacity="0.2"/>
+    <text x="40" y="74" font-size="16">☕</text>
+    <text x="10" y="105" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Espresso Double</text>
+    <text x="10" y="120" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 22.000</text>
+    
+    <!-- Item 2 -->
+    <rect x="105" y="38" width="95" height="95" rx="8" fill="#27272A" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="152" cy="68" r="18" fill="#F59E0B" opacity="0.2"/>
+    <text x="145" y="74" font-size="16">🥛</text>
+    <text x="115" y="105" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Caramel Latte</text>
+    <text x="115" y="120" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 28.000</text>
+    
+    <!-- Item 3 -->
+    <rect x="210" y="38" width="95" height="95" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <circle cx="257" cy="68" r="18" fill="#F59E0B" opacity="0.2"/>
+    <text x="250" y="74" font-size="16">🧋</text>
+    <text x="220" y="105" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Kopi Susu Aren</text>
+    <text x="220" y="120" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 20.000</text>
+
+    <!-- Item 4 -->
+    <rect x="0" y="145" width="95" height="95" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <text x="40" y="182" font-size="16">🍵</text>
+    <text x="10" y="212" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Matcha Oat</text>
+    <text x="10" y="227" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 30.000</text>
+
+    <!-- Item 5 -->
+    <rect x="105" y="145" width="95" height="95" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <text x="145" y="182" font-size="16">🥐</text>
+    <text x="115" y="212" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Croissant Butter</text>
+    <text x="115" y="227" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 25.000</text>
+
+    <!-- Item 6 -->
+    <rect x="210" y="145" width="95" height="95" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <text x="250" y="182" font-size="16">🧊</text>
+    <text x="220" y="212" font-family="sans-serif" font-weight="600" font-size="10" fill="#F4F4F5">Cold Brew Float</text>
+    <text x="220" y="227" font-family="'JetBrains Mono', monospace" font-size="9" fill="#F59E0B">Rp 32.000</text>
+  </g>
+  
+  <!-- Right Order Summary / Cart -->
+  <g transform="translate(380, 95)">
+    <rect width="165" height="245" rx="8" fill="#27272A" stroke="#3F3F46"/>
+    <text x="15" y="24" font-family="sans-serif" font-weight="700" font-size="12" fill="#F4F4F5">Pesanan #1042</text>
+    <text x="15" y="38" font-family="sans-serif" font-size="9" fill="#A1A1AA">Meja 04 • Kasir Rina</text>
+    <line x1="15" y1="46" x2="150" y2="46" stroke="#3F3F46"/>
+    
+    <text x="15" y="65" font-family="sans-serif" font-size="10" fill="#E4E4E7">1x Caramel Latte</text>
+    <text x="110" y="65" font-family="'JetBrains Mono', monospace" font-size="9" fill="#A1A1AA">28.000</text>
+    
+    <text x="15" y="85" font-family="sans-serif" font-size="10" fill="#E4E4E7">2x Kopi Susu Aren</text>
+    <text x="110" y="85" font-family="'JetBrains Mono', monospace" font-size="9" fill="#A1A1AA">40.000</text>
+    
+    <text x="15" y="105" font-family="sans-serif" font-size="10" fill="#E4E4E7">1x Croissant</text>
+    <text x="110" y="105" font-family="'JetBrains Mono', monospace" font-size="9" fill="#A1A1AA">25.000</text>
+    
+    <line x1="15" y1="120" x2="150" y2="120" stroke="#3F3F46"/>
+    <text x="15" y="140" font-family="sans-serif" font-size="10" fill="#A1A1AA">Subtotal</text>
+    <text x="105" y="140" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F4F4F5">93.000</text>
+    <text x="15" y="158" font-family="sans-serif" font-size="10" fill="#A1A1AA">PB1 (10%)</text>
+    <text x="112" y="158" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F4F4F5">9.300</text>
+    
+    <text x="15" y="185" font-family="sans-serif" font-weight="700" font-size="11" fill="#F59E0B">TOTAL</text>
+    <text x="92" y="185" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12" fill="#F59E0B">Rp 102.300</text>
+    
+    <rect x="15" y="200" width="135" height="32" rx="6" fill="#F59E0B"/>
+    <text x="35" y="220" font-family="sans-serif" font-weight="700" font-size="11" fill="#000">BAYAR QRIS / CASH</text>
+  </g>
+</svg>

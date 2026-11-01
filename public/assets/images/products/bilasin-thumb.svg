@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-bilasin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C4A6E"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="sky-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-bilasin)"/>
+  <circle cx="100" cy="90" r="130" fill="#38BDF8" opacity="0.1" filter="blur(40px)"/>
+  
+  <rect x="40" y="35" width="520" height="330" rx="12" fill="#082F49" stroke="#0369A1" stroke-width="1.5"/>
+  <rect x="40" y="35" width="520" height="38" rx="12" fill="#0C4A6E"/>
+  <rect x="40" y="60" width="520" height="13" fill="#0C4A6E"/>
+  <circle cx="65" cy="54" r="5" fill="#EF4444"/>
+  <circle cx="82" cy="54" r="5" fill="#F59E0B"/>
+  <circle cx="99" cy="54" r="5" fill="#10B981"/>
+  <text x="130" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#BAE6FD">bilasin-app.cybichi.com — Kasir &amp; Tracking Laundry</text>
+  
+  <text x="65" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#F0F9FF">🧺 BILASIN SMART LAUNDRY SYSTEM</text>
+  
+  <!-- Active Washing Batch Card -->
+  <g transform="translate(65, 125)">
+    <rect width="250" height="215" rx="10" fill="#0369A1" opacity="0.25" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="20" y="30" font-family="sans-serif" font-weight="700" font-size="12" fill="#BAE6FD">PELACAKAN PROSES CUCI</text>
+    
+    <!-- Step 1 -->
+    <circle cx="30" cy="65" r="10" fill="#10B981"/>
+    <text x="26" y="69" font-size="10" fill="#FFF">✓</text>
+    <text x="50" y="70" font-family="sans-serif" font-size="11" fill="#F0F9FF">Penerimaan &amp; Timbang (6.5 Kg)</text>
+    
+    <!-- Step 2 -->
+    <circle cx="30" cy="105" r="10" fill="#10B981"/>
+    <text x="26" y="109" font-size="10" fill="#FFF">✓</text>
+    <text x="50" y="110" font-family="sans-serif" font-size="11" fill="#F0F9FF">Pencucian Mesin Washer #02</text>
+    
+    <!-- Step 3 Active -->
+    <circle cx="30" cy="145" r="10" fill="#38BDF8"/>
+    <text x="26" y="149" font-size="10" fill="#000">●</text>
+    <text x="50" y="150" font-family="sans-serif" font-weight="700" font-size="11" fill="#38BDF8">Pengeringan (Dryer #01)</text>
+    
+    <!-- Step 4 -->
+    <circle cx="30" cy="185" r="10" fill="#0C4A6E" stroke="#0284C7"/>
+    <text x="50" y="190" font-family="sans-serif" font-size="11" fill="#94A3B8">Setrika &amp; Notifikasi WA</text>
+  </g>
+  
+  <!-- Right Order Summary -->
+  <g transform="translate(330, 125)">
+    <rect width="205" height="215" rx="10" fill="#0C4A6E" opacity="0.4" stroke="#0284C7"/>
+    <text x="15" y="28" font-family="sans-serif" font-weight="700" font-size="12" fill="#E0F2FE">Nota #BLS-0941</text>
+    <text x="15" y="44" font-family="sans-serif" font-size="10" fill="#BAE6FD">Pelanggan: Ibu Siska (0812-9988-xxxx)</text>
+    <line x1="15" y1="55" x2="190" y2="55" stroke="#0369A1"/>
+    <text x="15" y="78" font-family="sans-serif" font-size="11" fill="#F0F9FF">Cuci Komplit Kilat 1 Hari</text>
+    <text x="15" y="96" font-family="sans-serif" font-size="10" fill="#94A3B8">6.5 Kg x Rp 9.000 / Kg</text>
+    <text x="15" y="125" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="16" fill="#38BDF8">Rp 58.500</text>
+    <rect x="15" y="145" width="175" height="30" rx="6" fill="#10B981" opacity="0.2"/>
+    <text x="25" y="165" font-family="sans-serif" font-weight="600" font-size="10" fill="#34D399">💬 WA OTOMATIS AKTIF</text>
+    <rect x="15" y="182" width="175" height="25" rx="5" fill="#38BDF8"/>
+    <text x="45" y="198" font-family="sans-serif" font-weight="700" font-size="10" fill="#000">CETAK STRUK THERMAL</text>
+  </g>
+</svg>

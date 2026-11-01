@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-perpus" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-perpus)"/>
+  <circle cx="500" cy="90" r="130" fill="#6366F1" opacity="0.12" filter="blur(40px)"/>
+  
+  <rect x="40" y="35" width="520" height="330" rx="12" fill="#0F172A" stroke="#312E81" stroke-width="1.5"/>
+  <rect x="40" y="35" width="520" height="38" rx="12" fill="#1E1B4B"/>
+  <rect x="40" y="60" width="520" height="13" fill="#1E1B4B"/>
+  <circle cx="65" cy="54" r="5" fill="#EF4444"/>
+  <circle cx="82" cy="54" r="5" fill="#F59E0B"/>
+  <circle cx="99" cy="54" r="5" fill="#10B981"/>
+  <text x="130" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#C7D2FE">perpus.cybichi.com — Katalog Online &amp; Sirkulasi OPAC</text>
+  
+  <text x="65" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#EEF2FF">📚 PERPUS ONLINE • DIGITAL LIBRARY</text>
+  
+  <!-- Search bar -->
+  <rect x="65" y="120" width="470" height="32" rx="6" fill="#1E1B4B" stroke="#4338CA"/>
+  <text x="80" y="141" font-family="sans-serif" font-size="11" fill="#A5B4FC">🔍 Cari judul buku, pengarang, ISBN, atau subjek penelitian...</text>
+  
+  <!-- Book Cards -->
+  <g transform="translate(65, 165)">
+    <!-- Book 1 -->
+    <rect width="145" height="175" rx="8" fill="#1E1B4B" stroke="#3730A3"/>
+    <rect x="12" y="15" width="120" height="80" rx="4" fill="#312E81"/>
+    <text x="20" y="45" font-family="sans-serif" font-weight="700" font-size="10" fill="#C7D2FE">Arsitektur</text>
+    <text x="20" y="60" font-family="sans-serif" font-weight="700" font-size="10" fill="#C7D2FE">Komputer Modern</text>
+    <text x="12" y="112" font-family="sans-serif" font-weight="600" font-size="10" fill="#EEF2FF">Dr. Andrew S.</text>
+    <text x="12" y="127" font-family="sans-serif" font-size="9" fill="#818CF8">Rak 04 • Tersedia 3</text>
+    <rect x="12" y="138" width="120" height="24" rx="4" fill="#4F46E5"/>
+    <text x="35" y="154" font-family="sans-serif" font-weight="700" font-size="9" fill="#FFF">PINJAM SEKARANG</text>
+
+    <!-- Book 2 -->
+    <rect x="160" width="145" height="175" rx="8" fill="#1E1B4B" stroke="#3730A3"/>
+    <rect x="172" y="15" width="120" height="80" rx="4" fill="#312E81"/>
+    <text x="180" y="45" font-family="sans-serif" font-weight="700" font-size="10" fill="#C7D2FE">Algoritma &amp;</text>
+    <text x="180" y="60" font-family="sans-serif" font-weight="700" font-size="10" fill="#C7D2FE">Struktur Data</text>
+    <text x="172" y="112" font-family="sans-serif" font-weight="600" font-size="10" fill="#EEF2FF">Prof. Thomas C.</text>
+    <text x="172" y="127" font-family="sans-serif" font-size="9" fill="#818CF8">Rak 02 • Tersedia 5</text>
+    <rect x="172" y="138" width="120" height="24" rx="4" fill="#4F46E5"/>
+    <text x="195" y="154" font-family="sans-serif" font-weight="700" font-size="9" fill="#FFF">PINJAM SEKARANG</text>
+
+    <!-- Book 3 E-Book -->
+    <rect x="320" width="150" height="175" rx="8" fill="#1E1B4B" stroke="#3730A3"/>
+    <rect x="332" y="15" width="125" height="80" rx="4" fill="#1E293B"/>
+    <text x="340" y="45" font-family="sans-serif" font-weight="700" font-size="10" fill="#38BDF8">E-JOURNAL</text>
+    <text x="340" y="60" font-family="sans-serif" font-weight="700" font-size="10" fill="#F8FAFC">Cyber Security 2026</text>
+    <text x="332" y="112" font-family="sans-serif" font-weight="600" font-size="10" fill="#EEF2FF">IEEE Research Org</text>
+    <text x="332" y="127" font-family="sans-serif" font-size="9" fill="#38BDF8">PDF Terproteksi</text>
+    <rect x="332" y="138" width="125" height="24" rx="4" fill="#0D9488"/>
+    <text x="350" y="154" font-family="sans-serif" font-weight="700" font-size="9" fill="#FFF">BACA E-BOOK ↗</text>
+  </g>
+</svg>
